@@ -1,6 +1,3 @@
-Certainly! Here's the updated **README.md** with the hosted links placed at the start for easy access:
-
----
 
 # Web Development Assignments for SaralTech  
 
