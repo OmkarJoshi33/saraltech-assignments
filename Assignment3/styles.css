@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Sets text color */
+    background-color: rgb(11, 17, 33); /* Sets dark background */
+    height: 100vh;
+  }
+  
+  /* Header Section */
+  /* Styles for the header section, with padding and center-aligned text */
+  header {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(57, 67, 92, 0.601); /* Semi-transparent background */
+}
+
+/* Flexbox Styles for Boxes */
+.flex-box {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex: 1 1 calc(25% - 40px); /* Flex-grow, flex-shrink, and basis for responsiveness */
+    max-width: calc(25% - 40px);
+    min-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+.footer {
+    display: block;
+    position: relative;
+  
+    background-color: #333;
+    color: white;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    height: 50px;
+   width: 100%;
+    
+
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flex-box {
+        flex: 1 1 calc(50% - 40px); /* Adjust for smaller screens */
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .flex-box {
+        flex: 1 1 100%; /* Stack boxes vertically on very small screens */
+        max-width: 100%;
+    }
+   
+    
+}

@@ -1,0 +1,120 @@
+
+/* General Styles */
+/* Define basic styles for the body, including margin reset, font-family, text color, and background color */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white; /* Sets text color */
+  background-color: rgb(11, 17, 33); /* Sets dark background */
+}
+
+/* Header Section */
+/* Styles for the header section, with padding and center-aligned text */
+header {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Navigation Bar */
+/* Styling for the unordered list within the navigation bar */
+nav ul {
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  list-style: none; /* Removes bullet points */
+  display: flex; /* Displays items in a row */
+  justify-content: end; /* Aligns items to the end */
+}
+
+/* Styling for individual list items within the navigation bar */
+nav ul li {
+  margin: 0;
+}
+
+/* Links within the navigation bar */
+nav ul li a {
+  font-size: large; /* Makes the text larger */
+  font-weight: 700; /* Sets the font to bold */
+  color: white; /* Sets link color */
+  text-decoration: none; /* Removes underline from links */
+  padding: 10px 20px; /* Adds padding for clickable area */
+  display: block; /* Ensures links take up full padding space */
+}
+
+/* Hover effect for links in the navigation bar */
+nav > ul > li :hover {
+  color: rgb(14, 165, 233); /* Changes link color on hover */
+}
+
+/* Main Content Section */
+/* Main container with flexbox for centering content both vertically and horizontally */
+main {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  height: 70vh; /* Occupies 70% of viewport height */
+  flex-direction: column; /* Stacks child elements vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+}
+
+/* Styling for div elements inside the main section */
+main > div {
+  display: block;
+  padding: 20px; /* Adds spacing inside the div */
+  margin: 20px; /* Adds spacing around the div */
+  max-width: 1000px; /* Sets a maximum width */
+  height: 50vh; /* Sets height relative to viewport */
+  font-size: large; /* Increases font size */
+  border-radius: 35px; /* Rounds the corners */
+  background-color: rgba(57, 67, 92, 0.601); /* Semi-transparent background */
+  box-shadow: 20px 20px rgba(32, 32, 87, 0.286); /* Adds a subtle shadow */
+  animation-name: sideshow; /* Applies animation */
+  animation-duration: 2s; /* Animation duration */
+  animation-delay: 1s; /* Delay before animation starts */
+}
+
+/* Animation keyframes for slide-in effect */
+@keyframes sideshow {
+  from {
+    transform: translateX(-100%); /* Starts from off-screen to the left */
+    box-shadow: 20px 20px rgba(178, 178, 200, 0.286); /* Faded shadow */
+  }
+  to {
+    box-shadow: plum; /* Ends with a plum-colored shadow */
+  }
+}
+
+/* Styling for h2 elements inside the main section */
+main > div > h2 {
+  font-size: 40px; /* Large heading size */
+  color: rgb(14, 165, 233); /* Light blue color */
+}
+
+/* Styling for p elements inside the main section */
+main > div > p {
+  color: rgba(240, 255, 255, 0.599); /* Semi-transparent text color */
+}
+
+/* Footer Section */
+/* Styling for the footer with centered text and absolute positioning */
+footer {
+  color: white; /* Text color */
+  padding: 10px 0; /* Vertical padding */
+  display: block; /* Block-level element */
+  position: absolute; /* Positioned relative to its parent */
+  bottom: -1; /* Slight offset from the bottom */
+  text-align: center; /* Center-aligned text */
+}
+
+/* Responsive Design */
+/* Styles applied to screens with a maximum width of 600px */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column; /* Stacks nav items vertically */
+    text-align: center; /* Center-aligns the items */
+  }
+  main {
+    margin: 0px; /* Removes outer margin */
+    padding: 15px; /* Reduces padding */
+  }
+}
