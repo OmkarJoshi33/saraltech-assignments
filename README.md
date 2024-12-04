@@ -12,12 +12,12 @@ This repository contains my completed assignments for the Web Development Traine
 
 ### **Main Page**  
 Access all assignments from the main page:  
-- [View Main Page]([https://<username>.github.io/saraltech-assignments](https://omkarjoshi33.github.io/saraltech-assignments/)/)  
+- [View Main Page](https://omkarjoshi33.github.io/saraltech-assignments/)  
 
 ### **Individual Assignments**  
-- **Assignment 1**: [Hosted Link](https://<username>.github.io/saraltech-assignments/assignment1/index.html)  
-- **Assignment 2**: [Hosted Link](https://<username>.github.io/saraltech-assignments/assignment2/interactive.html)  
-- **Assignment 3**: [Hosted Link](https://<username>.github.io/saraltech-assignments/assignment3/flexbox.html)  
+- **Assignment 1**: [Hosted Link](https://omkarjoshi33.github.io/saraltech-assignments/Assignment1/index.html)  
+- **Assignment 2**: [Hosted Link](https://omkarjoshi33.github.io/saraltech-assignments/Assignment2/interactive.html)  
+- **Assignment 3**: [Hosted Link](https://omkarjoshi33.github.io/saraltech-assignments/Assignment3/flexbox.html)  
 
 ---
 
@@ -52,24 +52,6 @@ Access all assignments from the main page:
 
 ---
 
-## Repository Structure  
-
-```
-saraltech-assignments/
-├── assignment1/
-│   ├── index.html
-│   ├── styles.css
-├── assignment2/
-│   ├── interactive.html
-│   ├── script.js
-├── assignment3/
-│   ├── flexbox.html
-│   ├── styles.css
-├── index.html    # Main page linking to all assignments
-└── README.md
-```
-
----
 
 ## Contact  
 
@@ -79,13 +61,3 @@ saraltech-assignments/
 - **LinkedIn**: [Omkar Joshi](https://www.linkedin.com/in/omkar-joshi-776477250/)  
 
 ---
-
-### Instructions  
-
-1. Replace `<username>` in the **Hosted Links** with your GitHub username.  
-2. Ensure the `index.html` in the root directory links correctly to individual assignment pages.  
-3. Test all links before submitting the repository.  
-
----
-
-Let me know if you'd like any more modifications or if you need further help!
